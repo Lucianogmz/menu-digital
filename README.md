@@ -2,10 +2,6 @@
 
 Este proyecto es una página web simple para una pizzería. Está desarrollado con **HTML** y **CSS puro**, simulando un menú online con diseño visual atractivo y adaptable.
 
-## 📸 Vista previa
-
-![Vista previa del sitio](img/pizza.png)
-
 ## 🧱 Tecnologías utilizadas
 
 - HTML5
