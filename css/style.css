@@ -14,22 +14,30 @@
     display: table;
     font-family:monospace;
 }
+
+
 .hero h1{
+    color: white;
     font-size: 100px;
     padding-bottom: 20px;
+    text-shadow: 
+        0 0 5px #000,
+        0 0 10px #000,
+        0 0 15px #000,
+        0 0 20px rgba(0,0,0,0.7);
 }
 .hero p{
+    color: white;
     font-size: 50px;
     margin: 0 auto;
 }
 .logo{
      text-align: left;
-     margin: 0 auto;  
+     margin: 0 auto; 
 }   
 .logo-img{
     height: 70px;
     width: 70px;
-
 }
 body{
     background-color: black;
@@ -89,6 +97,15 @@ img{
     width: 150px;
     height: 150px;
     border-radius: 10%;
+}
+
+.Precio{
+    border-radius: 10%;
+    background-color: rgb(255, 240, 109);
+    width: 30%;
+    text-align: center;
+    border-radius: 40px;
+    margin: 0 auto;
 }
 
 
