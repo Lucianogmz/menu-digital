@@ -12,7 +12,7 @@
     height: 80vh;
     text-align: center;
     display: table;
- font-family:monospace;
+    font-family:monospace;
 }
 .hero h1{
     font-size: 100px;
@@ -22,6 +22,15 @@
     font-size: 50px;
     margin: 0 auto;
 }
+.logo{
+     text-align: left;
+     margin: 0 auto;  
+}   
+.logo-img{
+    height: 70px;
+    width: 70px;
+
+}
 body{
     background-color: black;
 }
@@ -29,24 +38,27 @@ header{
     background-color: black;
     padding: 10px;
     
-    
 }
 nav{
     font-size: 17px;
     margin: 10px;
     margin-bottom: 10px;
-    padding-left: 80%;
+    text-align: right;
     color: white;
 }
+
 a{
     color: white;
 }
+
 ul a{
     padding: 5px;
     border-radius: 50%;
     border: 2px solid white;
+    display: inline-block;
+    vertical-align: middle;
+    
 }
-
 
 
 .platos{
@@ -60,11 +72,24 @@ ul a{
     border-radius: 20px;
     margin: 0 auto 20px;
     margin-top: 30px;
-    
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
+
+.platos li{
+    padding: 5px 0;
+    position: relative;
+
+}
+.platos:hover{
+    transform: scale(1.1);
+}
+
+
 img{
     width: 150px;
     height: 150px;
     border-radius: 10%;
 }
+
+
 
