@@ -10,9 +10,50 @@
     background-size: cover;
     background-position: center;
     height: 80vh;
-
+    text-align: center;
+    display: table;
+ font-family:monospace;
 }
+.hero h1{
+    font-size: 100px;
+    padding-bottom: 20px;
+}
+.hero p{
+    font-size: 50px;
+    margin: 0 auto;
+}
+body{
+    background-color: black;
+}
+header{
+    background-color: black;
+    padding: 10px;
+    
+    
+}
+nav{
+    font-size: 17px;
+    margin: 10px;
+    margin-bottom: 10px;
+    padding-left: 80%;
+    color: white;
+}
+a{
+    color: white;
+}
+ul a{
+    padding: 5px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
 h1{
+    text-align: center;
+    
+}
+
+.platos{
+    color: white;
     text-align: center;
 }
 
